@@ -1,9 +1,9 @@
 def mass_convert(w: int):
-    return w*100
+    return w*1000
 
 
 def temp_convert(t: int):
-    pass
+    return (t - 32) / 1.8
 
 
 if __name__ == "__main__":
@@ -12,5 +12,5 @@ if __name__ == "__main__":
         weight = int(input("Enter the weight in kgs : "))
         print("Mass in grams", mass_convert(weight))
     if unit == 1:
-        temp = int(input("Enter temperature in Celsius : "))
-        print("Temperature in Fahrenheit : ", temp_convert(temp))
+        temp = int(input("Enter temperature in Fahrenheit : "))
+        print("Temperature in Celsius : ", temp_convert(temp))
