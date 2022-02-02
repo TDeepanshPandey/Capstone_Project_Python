@@ -14,3 +14,6 @@ The list contains around 100 project ideas in Python. I also wrote Test Cases wi
 9. <b> bin2decimal.py </b> - Convert binary to decimal and decimal to binary.
 10. <b> calculator.py </b> - Simple Calculator.
 11. <b> unit_converter.py </b> - Unit Converter for temperature and mass.
+12. <b> alarm_clock.py </b> - Alarm Clock for a specified time and minutes.
+
+### Data Structures
